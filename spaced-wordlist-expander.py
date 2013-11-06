@@ -121,7 +121,7 @@ class Capitalise(Manipulate):
 
 class RemoveThe(Manipulate):
     def logic(self):
-        rgx = re.compile('the|The|THE')
+        rgx = re.compile('the', re.IGNORECASE)
         for i in self.input_file:
             self.output_string(rgx.sub('', i))
 
