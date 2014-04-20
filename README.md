@@ -10,6 +10,13 @@ a pull request :)
 ### leakdb_lookup.py
 A simple script that takes an input file of hashes and looks them up on leakdb. If a plain text for a hash is discovered it is printed on the screen.
 
+### pot\_file\_to\_wordlist.sh
+Convert an input pot file into a word list.
+
+	./script test.pot
+	[*] New wordlist file created from test.pot
+	[*] Stored in /home/nullmode/test.lst
+
 ### space-wordlist-expander.py
 This script takes input word lists, manipulates them, then outputs new word lists with changes. Best results are from word lists containing multiple words that are spaced. Results are not sorted and duplicates are not removed.
 
